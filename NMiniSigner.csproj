@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NBitcoin" Version="7.0.36" />
     <PackageReference Include="NBitcoin.Secp256k1" Version="3.1.4" />
   </ItemGroup>
 
@@ -18,6 +17,10 @@
     <None Update="example.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Encoders\" />
   </ItemGroup>
 
 </Project>
